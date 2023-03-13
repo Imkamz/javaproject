@@ -1,12 +1,13 @@
-public class Car {
+public class Car extends Vehicle {
 
     private String plateNumber;
     private int year;
 
-    private String colour= "silver";
+
     public Car() {
     }
-    public String toString(){
+
+    public String toString() {
         return this.colour + " car plate: " + this.plateNumber + " manufactured in " + this.year;
     }
 
@@ -31,11 +32,6 @@ public class Car {
         this.year = year;
     }
 
-    public String getColour() {
-        return colour;
-    }
 
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
 }
+

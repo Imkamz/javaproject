@@ -10,6 +10,10 @@ public class Main {
         myCar.setColour("Red");
         System.out.println(myCar);
 
+        Bike myBike = new Bike();
+        myBike.setColour("White");
+        System.out.println(myBike);
+
 
     }
 }
